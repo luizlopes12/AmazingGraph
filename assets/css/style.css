@@ -64,8 +64,10 @@ header{
     width: 100%;
     font-size: 3em;
     color: #766F68;
+    
 }
 .texto2{
+    
     margin-bottom: 30px;
     width: 80%;
     font-size: 1.8em;
@@ -79,7 +81,7 @@ header{
     height: 50px;
     line-height: 50px;
     text-align: center;
-    margin: 0 80px ;
+    margin: 20px 0px ;
     background: #D2872C;
     border-radius: 10px;
     transition: all .1s linear;
