@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    width: 90%;
+    line-height: 100px;
+    height: 100px;
+    margin: auto;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 10px;
+    font-size: 1.2em;
+    color: #D2872C;
+}
+.menu{
+    font-size: 1.3em;
+    color: #766F68;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: #766F68;
+}
+.menu-item{
+    margin: 10px;
+}
+.main{
+    background: rgb(165, 165, 165);
+    margin: auto;
+    width: 90%;
+}
