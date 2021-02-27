@@ -29,6 +29,11 @@ header{
 .menu a{
     text-decoration: none;
     color: #766F68;
+    transition: all .1s linear;
+}
+.menu a:hover{
+    font-size: 115%;
+    color: #766F68;
 }
 .menu-item{
     margin: 10px;
