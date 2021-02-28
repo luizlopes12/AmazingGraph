@@ -98,7 +98,10 @@ header{
     width: 850px;
 }
 @media(max-width: 800px){
-    
+    .logo{
+        padding-top: 10px;
+        font-size: 1.2em;
+    }
     .menu{
         display: none;
     }
