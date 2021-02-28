@@ -100,7 +100,7 @@ header{
 @media(max-width: 800px){
     .logo{
         padding-top: 10px;
-        font-size: 1.2em;
+        font-size: 80%;
     }
     .menu{
         display: none;
