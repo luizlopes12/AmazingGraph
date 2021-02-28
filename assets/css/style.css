@@ -97,3 +97,16 @@ header{
 .img img{
     width: 850px;
 }
+@media(max-width: 800px){
+    
+    .menu{
+        display: none;
+    }
+    .img{
+        padding-top: 0;
+        float: right;
+    }
+    .img img{
+        width: 850px;
+    }
+}
