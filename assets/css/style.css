@@ -106,10 +106,12 @@ header{
         display: none;
     }
     .img{
+        display: block;
         padding-top: 0;
         float: none;
     }
     .img img{
         width: 200px;
     }
+    
 }
