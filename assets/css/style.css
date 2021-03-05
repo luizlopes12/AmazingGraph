@@ -143,11 +143,12 @@ header{
         font-size: 110%;
     }
     .button{
-        margin-top: 30px;
+        margin-top: 40px;
         display: inline-block;
         font-size: 3em;
-        width: 150px;
+        width: 200px;
         height: 50px;
+        border-radius: 20px;
     }
     .button:hover{
         background: #b37326;
