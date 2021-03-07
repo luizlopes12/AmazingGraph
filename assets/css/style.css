@@ -1,156 +1,174 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
-header{
-    display: flex;
-    width: 90%;
-    line-height: 60px;
-    height: 60px;
-    margin: auto;
-    justify-content: space-between;
+/*header com a logo e o menu*/
+header {
+  display: flex;
+  width: 90%;
+  line-height: 60px;
+  height: 60px;
+  margin: auto;
+  justify-content: space-between;
 }
-.logo{
-    padding-top: 10px;
-    font-size: 1.2em;
+/*logo devchallenge topo*/
+.logo {
+  padding-top: 10px;
+  font-size: 1.2em;
 }
-.logo a{
-    color: #D2872C;
-    text-decoration: none;
-    transition: all .13s linear;
+.logo a {
+  color: #d2872c;
+  text-decoration: none;
+  transition: all 0.13s linear;
 }
-.logo a:hover{
-    font-size: 105%;
+.logo a:hover {
+  font-size: 105%;
 }
-.menu{
-    font-size: 1.4em;
-    color: #766F68;
+/*menu lateral*/
+.menu {
+  font-size: 1.4em;
+  color: #766f68;
 }
-.menu ul{
-    display: flex;
-    list-style: none;
+.menu ul {
+  display: flex;
+  list-style: none;
 }
-.menu a{
-    text-decoration: none;
-    color: #766F68;
-    transition: all .13s linear;
+.menu a {
+  text-decoration: none;
+  color: #766f68;
+  transition: all 0.13s linear;
 }
-.menu a:hover{
-    font-size: 115%;
+.menu a:hover {
+  font-size: 115%;
 }
-.menu-item{
-    margin: 10px;
+.menu-item {
+  margin: 10px;
 }
-.main{
-    display: flex;
-    flex: 1;
-    margin: auto;
-    width: 90%;
+/*imagem e textos*/
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
 }
-.textos{
-    position: absolute;
-    width: 40%;
-    margin: 50px 0 0 50px;
+.main {
+  display: flex;
+  flex: 1;
+  margin: auto;
+  width: 90%;
 }
-.textos a{
-    text-decoration: none;
-    color: #ffffff;
+.img {
+  padding-left: 30%;
+  padding-top: 70px;
+  float: right;
+  position: absolute;
 }
-.texto1{
-    margin-bottom: 30px;
-    width: 100%;
-    font-size: 3em;
-    color: #766F68;
-    
+.img img {
+  width: 850px;
 }
-.texto2{
-    
-    margin-bottom: 30px;
-    width: 80%;
-    font-size: 1.8em;
-    color: #766F68;
+/*texto 1 texto 2 e botão*/
+.textos {
+  position: absolute;
+  width: 40%;
+  margin: 50px 0 0 50px;
 }
-.button{
-    display: inline-block;
-    color: #ffffff;
-    font-size: 1.2em;
-    width: 300px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    margin: 20px 0px ;
-    background: #D2872C;
-    border-radius: 10px;
-    transition: all .1s linear;
+.textos a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.texto1 {
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 3em;
+  color: #766f68;
+}
+.texto2 {
+  margin-bottom: 30px;
+  width: 80%;
+  font-size: 1.8em;
+  color: #766f68;
+}
+.button {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.2em;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 20px 0px;
+  background: #d2872c;
+  border-radius: 10px;
+  transition: all 0.1s linear;
+}
+.button:hover {
+  background: #b37326;
 }
 
-.button:hover{
+@media (max-width: 800px) {
+  /*logo devchallenge topo*/
+  .logo {
+    padding-top: 0px;
+    font-size: 70%;
+  }
+  .menu {
+    display: none;
+  }
+  /*container com a imagem, textos e botão*/
+  .main-container {
+    display: initial;
+    text-align: center;
+    margin: auto;
+    justify-content: initial;
+  }
+  .img {
+    text-align: center;
+    padding-top: 0;
+    float: none;
+    position: static;
+    padding-left: 0;
+  }
+  .img img {
+    width: 85%;
+  }
+  .main {
+    display: flex;
+    margin: auto;
+    flex: 1;
+    width: 100%;
+    position: initial;
+  }
+  /*container com o texto1,texto2 e botão*/
+  .textos {
+    margin: auto;
+    position: initial;
+    text-align: center;
+    font-size: 50%;
+    width: 320px;
+  }
+  .texto1 {
+    margin-bottom: 20px;
+  }
+  .texto1 h2 {
+    margin: auto;
+    text-align: center;
+  }
+  .texto2 {
+    margin: 0 auto;
+  }
+  .texto2 p {
+    font-size: 110%;
+  }
+  .button {
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 3em;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+  }
+  .button:hover {
     background: #b37326;
-}
-.img{
-    padding-top: 70px;
-    float: right;
-}
-.img img{
-    width: 850px;
-}
-@media(max-width: 800px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .logo{
-        padding-top: 10px;
-        font-size: 80%;
-    }
-    .menu{
-        display: none;
-    }
-    .img{
-        text-align: center;
-        padding-top: 0;
-        float: none;
-    }
-    .img img{
-        width: 80%;
-    }
-    .main{
-        display: flex;
-        margin: auto;
-        flex: 1;
-        width: 100%;
-    }
-    .textos{
-        margin: auto;
-        text-align: center;
-        font-size: 50%;
-        width: 320px;
-    }
-    .texto1{
-        margin-bottom: 20px;
-    }
-    .texto1 h2{
-        margin: auto;
-        text-align: center;
-    }
-    .texto2{
-        margin: 0 auto;
-    }
-    .texto2 p{
-        font-size: 110%;
-    }
-    .button{
-        margin-top: 40px;
-        display: inline-block;
-        font-size: 3em;
-        width: 200px;
-        height: 50px;
-        border-radius: 20px;
-    }
-    .button:hover{
-        background: #b37326;
-    }
+  }
 }
