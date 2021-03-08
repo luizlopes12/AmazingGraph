@@ -8,7 +8,7 @@ body {
 /*header com a logo e o menu*/
 header {
   display: flex;
-  width: 95%;
+  width: 90%;
   line-height: 60px;
   height: 60px;
   margin: auto;
@@ -59,13 +59,13 @@ header {
   width: 90%;
 }
 .img {
-  padding-left: 30%;
-  padding-top: 70px;
+  padding-left: 28%;
+  padding-top: 5.2%;
   float: right;
   position: absolute;
 }
 .img img {
-  width: 850px;
+  width: 860px;
 }
 /*texto 1 texto 2 e botão*/
 .textos {
