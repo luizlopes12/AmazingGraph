@@ -77,18 +77,21 @@ header {
   text-decoration: none;
   color: #ffffff;
 }
+  /*Titulo*/
 .texto1 {
   margin-bottom: 30px;
   width: 100%;
   font-size: 3em;
   color: #766f68;
 }
+/*Sub titulo*/
 .texto2 {
   margin-bottom: 30px;
   width: 80%;
   font-size: 1.8em;
   color: #766f68;
 }
+  /*botão*/
 .button {
   display: inline-block;
   color: #ffffff;
@@ -147,6 +150,7 @@ header {
     font-size: 50%;
     width: 320px;
   }
+  /*Titulo*/
   .texto1 {
     margin-bottom: 20px;
   }
@@ -154,12 +158,14 @@ header {
     margin: auto;
     text-align: center;
   }
+  /*Sub titulo*/
   .texto2 {
     margin: 0 auto;
   }
   .texto2 p {
     font-size: 110%;
   }
+  /*botão*/
   .button {
     margin-top: 40px;
     display: inline-block;
