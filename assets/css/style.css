@@ -115,7 +115,7 @@ header {
   .menu {
     display: none;
   }
-  /*container com a imagem, textos e botão*/
+  /*container com imagem e textos*/
   .main-container {
     display: initial;
     text-align: center;
