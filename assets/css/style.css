@@ -172,7 +172,7 @@ header {
     font-size: 3em;
     width: 200px;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 12px;
   }
   .button:hover {
     background: #b37326;
