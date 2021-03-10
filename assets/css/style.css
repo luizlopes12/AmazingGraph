@@ -117,12 +117,18 @@ header {
   }
   /*menu lateral*/
   .mobile-menu{
-    
+    width: 100%;
+    position: relative;
+    top: 7%;
+    left: 42%;
+  }
+  .mobile-menu:only-child{
+    display: none;
   }
   .menu {
   font-size: 1.1em;
-  
   }
+  
   .menu-item {
   text-align: center;
   margin: 0;
