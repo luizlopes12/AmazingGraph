@@ -116,9 +116,12 @@ header {
     font-size: 70%;
   }
   /*menu lateral*/
+  .mobile-menu{
+    
+  }
   .menu {
   font-size: 1.1em;
-  display: none;
+  
   }
   .menu-item {
   text-align: center;
